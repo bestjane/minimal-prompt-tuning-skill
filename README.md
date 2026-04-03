@@ -31,29 +31,16 @@ minimal-prompt-tuning/
 
 ## 安装
 
-### 方式一：直接复制到本地 skills 目录
+推荐直接复制到本地 skills 目录：
 
 ```bash
 git clone git@github.com:bestjane/minimal-prompt-tuning-skill.git
 mkdir -p ~/.codex/skills
-cp -R minimal-prompt-tuning-skill ~/.codex/skills/minimal-prompt-tuning
-```
-
-如果你 clone 下来后仓库目录名不是 `minimal-prompt-tuning`，建议手动调整成这个名字：
-
-```bash
+cp -R minimal-prompt-tuning-skill ~/.codex/skills/
 mv ~/.codex/skills/minimal-prompt-tuning-skill ~/.codex/skills/minimal-prompt-tuning
 ```
 
 最终目录应为：
-
-```text
-~/.codex/skills/minimal-prompt-tuning/
-```
-
-### 方式二：只下载后手动放置
-
-把仓库内容放到本地这个目录：
 
 ```text
 ~/.codex/skills/minimal-prompt-tuning/
@@ -92,6 +79,10 @@ $minimal-prompt-tuning
 
 - `SKILL.md`：精简入口，减少触发后上下文占用
 - `references/playbook.md`：完整方法论与执行手册
+
+## 发布记录
+
+- `v1`：完成 skill 初版、GitHub 分发和中文化元数据
 
 ## License
 
