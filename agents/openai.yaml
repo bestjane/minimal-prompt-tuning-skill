@@ -1,4 +1,4 @@
 interface:
-  display_name: "Minimal Prompt Tuning"
+  display_name: "最小化 Prompt 调优"
   short_description: "低 token 成本的 prompt 与 tool 调优流程"
-  default_prompt: "Use $minimal-prompt-tuning to optimize system_prompt.txt and tools_call.json with minimal token growth."
+  default_prompt: "使用 $minimal-prompt-tuning 分析 badcase，并以最小 token 增长优化 system_prompt.txt 和 tools_call.json。"
