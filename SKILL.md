@@ -48,7 +48,7 @@ description: 优化 `system_prompt.txt` 和 `tools_call.json`，以尽量少的 
 
 ## 需要时再读参考
 
-需要完整方法时，再读 `/Users/zh/.codex/skills/minimal-prompt-tuning/references/playbook.md`，里面有：
+需要完整方法时，再读 `references/playbook.md`，里面有：
 - 错误类型到修改文件的落点表
 - 单轮调优 SOP
 - 每轮记录模板
