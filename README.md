@@ -2,6 +2,21 @@
 
 一个用于低 token 成本调优的 Codex skill，适合根据测试报告和 badcase 优化 `system_prompt.txt` 与 `tools_call.json`。
 
+## 快速开始
+
+```bash
+git clone git@github.com:bestjane/minimal-prompt-tuning-skill.git
+mkdir -p ~/.codex/skills
+cp -R minimal-prompt-tuning-skill ~/.codex/skills/
+mv ~/.codex/skills/minimal-prompt-tuning-skill ~/.codex/skills/minimal-prompt-tuning
+```
+
+然后在 Codex 中使用：
+
+```text
+$minimal-prompt-tuning
+```
+
 它的目标不是“不断加 prompt”，而是：
 - 先归因，再定点修
 - 能改 tool 就不改全局 prompt
